@@ -16,3 +16,5 @@ TransactionsPoint.propType = {
   amount: propTypes.string,
   currency: propTypes.string,
 };
+
+//
