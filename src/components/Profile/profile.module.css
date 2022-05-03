@@ -1,0 +1,44 @@
+.avatar {
+  border-radius: 100%;
+  width: 200px;
+  height: 170px;
+  padding-top: 20px;
+  border: 1px solid black;
+}
+
+.profile {
+  border: 1px solid gray;
+  display: flex;
+  width: 250px;
+  height: 370px;
+  flex-direction: column;
+}
+
+p {
+  margin-top: 10px;
+}
+
+.description {
+  text-align: center;
+}
+
+.stats {
+  display: flex;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.item {
+  border: 1px solid gray;
+  border-bottom: none;
+  padding-top: 10px;
+  padding-bottom: 14px;
+}
+
+.item:first-child {
+  border-left: none;
+}
+
+.item:last-child {
+  border-right: none;
+}

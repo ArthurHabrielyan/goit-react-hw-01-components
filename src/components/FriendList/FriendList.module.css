@@ -1,0 +1,33 @@
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.isOnline {
+  width: 12px;
+  height: 12px;
+  background-color: green;
+  border-radius: 100%;
+}
+
+.isOffline {
+  width: 12px;
+  height: 12px;
+  background-color: red;
+  border-radius: 100%;
+}
+
+.avatar {
+  margin: 10px 20px 10px 20px;
+}
+
+.name {
+  padding-right: 20px;
+}
